@@ -1,0 +1,71 @@
+@import "../color/colorName.scss";
+@import "../common/media.scss";
+
+.Body {
+  background-color: $body-bg;
+  min-height: 100%;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.page {
+  background-color: $body-center-bg;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  max-width: 1200px;
+  box-shadow: -60px 0px 100px -70px #bdbdbd, 60px 0px 100px -70px #bdbdbd;
+  h1 {
+    color: $i-gray;
+    text-align: center;
+    padding-bottom: 0.6em;
+  }
+
+  h2 {
+    color: $i-white;
+    font-size: 1.6em;
+    word-spacing: 0.1em;
+    padding: 0.2em 0.5em;
+    background: -webkit-linear-gradient(to right, $h2-grad, transparent);
+    background: linear-gradient(to right, $h2-grad, transparent 50%);
+    border-left: 10px solid $h2-left;
+    .icon {
+      font-size: 0.8em;
+      padding-right: 0.4em;
+    }
+  }
+  h3 {
+  }
+  p {
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    width: 40%;
+    margin-bottom: 2em;
+    background-image: -webkit-linear-gradient(left, $t, $line, $t);
+    background-image: linear-gradient(90deg, $t, $line, $t);
+  }
+  .page-p {
+    margin: 0 10px;
+    background-color: $p-bg;
+  }
+  @include tab {
+    p {
+      font-size: 1.1em;
+    }
+  }
+  @include sp {
+    p {
+      font-size: 1.3em;
+    }
+  }
+  .fa-page {
+    padding-right: 0.4em;
+  }
+}

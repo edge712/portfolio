@@ -1,0 +1,28 @@
+@import "./color.scss";
+
+$bg-blue: rgba($dark-skyblue, 0.4);
+$bg-gray: rgba($darkest-gray, 0.78);
+//base-font-colors
+$i-white: $base-white;
+$i-gray: #89b4e0;
+//
+$header-bg: $bg-blue;
+$header-color: $base-white;
+$header-color-shadow: $base-gray;
+$header-nav-bg: rgba($darker-gray, 0.4);
+// home
+$home-bg: $bg-gray;
+// profile
+$profile-bg: $bg-gray;
+
+//
+$page-bg: $bg-blue;
+$comp-bg: $bg-blue;
+$body-bg: $bg-gray;
+$body-center-bg: transparent;
+$p-bg: transparent;
+$line: $base-gray;
+$t: transparent;
+//
+$h2-grad: rgba($darkest-skyblue, 0.6);
+$h2-left: $dark-gray;

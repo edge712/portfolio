@@ -1,0 +1,26 @@
+$pc: 1024px;
+$tab: 680px;
+$sp: 480px;
+
+// styles for pc are written as default
+// @mixin pc will not be used
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin notsp {
+  @media (min-width: ($sp)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}

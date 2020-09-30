@@ -1,0 +1,126 @@
+@import "../color/colorName.scss";
+@import "../common/media.scss";
+
+.Header {
+  width: 100%;
+  background-color: $header-bg;
+  color: $i-white;
+
+  .App-header {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    //min-width: 600px;
+    max-width: 1200px;
+    box-shadow: -60px 0px 100px -70px #181818, 60px 0px 100px -70px #181818;
+
+    .Title {
+      $sub_title_space: 0.2em;
+      h1 {
+        font-size: 5em;
+        letter-spacing: 0em;
+        text-indent: 1em;
+        margin: 0;
+        padding-top: 1em;
+        text-shadow: 2px 2px 5px $header-color-shadow,
+          -2px 2px 5px $header-color-shadow, 2px -2px 5px $header-color-shadow,
+          -2px -2px 5px $header-color-shadow;
+      }
+      h2 {
+        font-size: 1.8em;
+        word-spacing: 0.2em;
+        text-indent: 0.2em;
+        margin: 0;
+        padding-top: 0.5em;
+        text-shadow: 2px 2px 5px $header-color-shadow,
+          -2px 2px 5px $header-color-shadow, 2px -2px 5px $header-color-shadow,
+          -2px -2px 5px $header-color-shadow;
+      }
+
+      @include tab {
+        h1 {
+          font-size: 4em;
+          letter-spacing: 1em;
+          text-indent: 1em;
+        }
+        h2 {
+          font-size: 1.6em;
+          word-spacing: 0.2em;
+          text-indent: 0.2em;
+        }
+      }
+      @include sp {
+        h1 {
+          font-size: 3em;
+          letter-spacing: 0.5em;
+          text-indent: 0.5em;
+          padding-top: 0.6em;
+        }
+        h2 {
+          font-size: 1.2em;
+          word-spacing: 0.2em;
+          text-indent: 0.2em;
+        }
+      }
+    }
+
+    .Nav {
+      list-style: none;
+      margin: 0;
+      padding-top: 3em;
+      padding-bottom: 2em;
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      li {
+        background-color: $header-nav-bg;
+        width: 24%;
+        position: relative;
+        margin-left: 0.4%;
+        margin-right: 0.4%;
+        .fa-nav {
+          height: 1em;
+          width: 1em;
+          padding-right: 10%;
+        }
+        a {
+          font-size: 1.4em;
+          color: $i-white;
+          font-weight: bold;
+          display: block;
+          padding-top: 0.5em;
+          padding-bottom: 0.5em;
+          text-decoration: none;
+          text-align: center;
+        }
+      }
+    }
+    @include tab {
+      .Nav {
+        padding-top: 3em;
+        padding-bottom: 2em;
+        li a {
+          font-size: 1em;
+        }
+      }
+    }
+    @include sp {
+      .Nav {
+        padding-top: 2em;
+        padding-bottom: 1em;
+        li a {
+          font-size: 0.8em;
+          font-weight: normal;
+          padding-top: 0.8em;
+          padding-bottom: 0.8em;
+        }
+      }
+    }
+  }
+}

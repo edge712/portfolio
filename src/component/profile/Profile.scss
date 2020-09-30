@@ -1,0 +1,96 @@
+@import "../common/media.scss";
+@import "../color/colorName.scss";
+
+.profile {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  @include notsp {
+    .profile-box {
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      flex-direction: row;
+      padding: 1.5em 1em;
+      background-color: $profile-bg;
+
+      .profile-img-box {
+        width: 30%;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .profile-str-box {
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+        position: relative;
+        .profile-str {
+          position: absolute;
+          width: 80%;
+          top: 50%;
+          left: 50%;
+          transform: translateY(-50%) translateX(-50%);
+          -webkit-transform: translateY(-50%) translateX(-50%);
+          dt {
+            font-size: 1.6em;
+            text-align: center;
+            word-spacing: 1em;
+            .name {
+              background: linear-gradient(transparent 84%, $base-skyblue 84%);
+            }
+          }
+          dd {
+            font-size: 1.4em;
+            text-align: center;
+            padding-top: 1em;
+            margin: 0;
+            word-spacing: 1em;
+          }
+        }
+      }
+    }
+  }
+  @include sp {
+    .profile-box {
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      background-color: $profile-bg;
+    }
+    .profile-img-box {
+      text-align: center;
+      img {
+        widows: 100%;
+        height: auto;
+      }
+    }
+    .profile-str-box {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 1em;
+      width: 80%;
+      .profile-str {
+        padding-left: 0;
+        dt {
+          font-size: 1.5em;
+          word-spacing: 1em;
+          .name {
+            background: linear-gradient(transparent 84%, $base-skyblue 84%);
+          }
+        }
+        dd {
+          font-size: 1.1em;
+          word-spacing: 1em;
+        }
+      }
+    }
+  }
+}
