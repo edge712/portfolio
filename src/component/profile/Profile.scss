@@ -11,6 +11,7 @@
     width: 70%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 1em;
     background-color: $home-bg;
     @include tab {
       width: 84%;
@@ -21,9 +22,10 @@
   }
 }
 
-//
+// timeline
 
 ul.timeline {
+  margin-top: 0.4em;
   list-style: none;
   li {
     margin-bottom: 10px;
@@ -53,6 +55,9 @@ ul.timeline {
       font-weight: 700;
       font-size: x-large;
       color: $i-gray;
+    }
+    p {
+      padding-left: 3em;
     }
   }
 }

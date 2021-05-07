@@ -4,7 +4,7 @@ import "./App.scss";
 import Validate from "./component/validate/Validate";
 import Access from "./component/access/Access";
 import Profile from "./component/profile/Profile";
-import Skils from "component/skils/Skils";
+import Skills from "component/skills/Skills";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <div className="page">
             <Validate></Validate>
             <Profile></Profile>
-            <Skils></Skils>
+            <Skills></Skills>
             <Access></Access>
           </div>
         </div>

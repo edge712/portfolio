@@ -1,9 +1,9 @@
 import React from "react";
-import "component/skils/Skils.scss";
+import "component/skills/Skills.scss";
 
-function Skils() {
+function Skills() {
   return (
-    <div className="skils" id="Skils">
+    <div className="skills" id="Skils">
       <h1>
         <i className="fas fa-globe fa-page fa-fw"></i>Skils
       </h1>
@@ -12,4 +12,4 @@ function Skils() {
   );
 }
 
-export default Skils;
+export default Skills;

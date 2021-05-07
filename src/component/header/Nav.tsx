@@ -19,9 +19,9 @@ function Nav() {
           </li>
 
           <li>
-            <HashLink to="/#Idea">
+            <HashLink to="/#Skills">
               <i className="fas fa-globe fa-nav fa-fw"></i>
-              Idea
+              Skills
             </HashLink>
           </li>
           <li>
