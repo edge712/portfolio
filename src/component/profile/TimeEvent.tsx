@@ -7,7 +7,9 @@ function TimeEvent(props: TimeEventProps) {
       <span className="tl-date">{props["date"]}</span>
       <div className="tl-content">
         <div className="tl-topic">{props["topic"]}</div>
-        <p>{props["content"]}</p>
+        {props["content"].map((val) => (
+          <p>* {val}</p>
+        ))}
       </div>
     </li>
   );
@@ -16,7 +18,7 @@ function TimeEvent(props: TimeEventProps) {
 export interface TimeEventProps {
   date: string;
   topic: string;
-  content: string;
+  content: string[];
 }
 
 export default TimeEvent;
