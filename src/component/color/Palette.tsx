@@ -1,11 +1,9 @@
-
 import React from "react";
 import "./Palette.scss";
 
 function Palette() {
   return (
     <div className="palette">
-        
       <hr></hr>
       <h2>gray</h2>
       <div className={"box lightest-gray"}>lightest</div>
@@ -85,7 +83,6 @@ function Palette() {
       <div className={"box dark-white"}>dark</div>
       <div className={"box darker-white"}>darker</div>
       <div className={"box darkest-white"}>darkest</div>
-
     </div>
   );
 }

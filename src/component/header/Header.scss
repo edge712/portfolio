@@ -18,8 +18,6 @@
       $sub_title_space: 0.2em;
       h1 {
         font-size: 5em;
-        letter-spacing: 0em;
-        text-indent: 1em;
         margin: 0;
         padding-top: 1em;
         text-shadow: 2px 2px 5px $header-color-shadow,
@@ -40,8 +38,6 @@
       @include tab {
         h1 {
           font-size: 4em;
-          letter-spacing: 1em;
-          text-indent: 1em;
         }
         h2 {
           font-size: 1.6em;
@@ -52,8 +48,6 @@
       @include sp {
         h1 {
           font-size: 3em;
-          letter-spacing: 0.5em;
-          text-indent: 0.5em;
           padding-top: 0.6em;
         }
         h2 {

@@ -8,7 +8,7 @@ function Nav() {
           <li>
             <HashLink to="/#Note">
               <i className="fas fa-check fa-nav fa-fw"></i>
-              Validate
+              Validation
             </HashLink>
           </li>
           <li>

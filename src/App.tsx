@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./component/header/Header";
 import "./App.scss";
-import Note from "./component/note/Note";
+import Validate from "./component/validate/Validate";
 import Access from "./component/access/Access";
 import Profile from "./component/profile/Profile";
-import Idea from "component/idea/Idea";
+import Skils from "component/skils/Skils";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
         {<Header />}
         <div className="Body">
           <div className="page">
-            <Note></Note>
+            <Validate></Validate>
             <Profile></Profile>
-            <Idea></Idea>
+            <Skils></Skils>
             <Access></Access>
           </div>
         </div>
