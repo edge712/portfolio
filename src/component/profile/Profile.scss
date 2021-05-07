@@ -26,23 +26,33 @@
 ul.timeline {
   list-style: none;
   li {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     &:before {
       font-family: "Font Awesome 5 Free";
       content: "\f111";
       font-weight: bold;
-      color: #ff0000;
-      font-size: 80%;
+      color: #4f95aa;
+      font-size: 200%;
+      display: table-cell;
+      vertical-align: middle;
     }
   }
-
-  .topic {
-    font-weight: 500;
-    font-size: 120%;
-    color: #04cdff;
+  .tl-date {
+    color: #8a8a8a;
+    padding-left: 1em;
+    font-size: large;
+    display: table-cell;
+    vertical-align: middle;
   }
   .tl-content {
+    margin-left: 1em;
+    padding-left: 1em;
     margin-top: 1rem;
-    border-left: dashed 1px #fcfc00;
+    border-left: dashed 2px #406368;
+    .tl-topic {
+      font-weight: 700;
+      font-size: x-large;
+      color: $i-gray;
+    }
   }
 }

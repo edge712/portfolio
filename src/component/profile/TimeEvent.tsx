@@ -6,7 +6,7 @@ function TimeEvent(props: TimeEventProps) {
     <li>
       <span className="tl-date">{props["date"]}</span>
       <div className="tl-content">
-        <span className="tl-topic">{props["topic"]}</span>
+        <div className="tl-topic">{props["topic"]}</div>
         {props["content"]}
       </div>
     </li>

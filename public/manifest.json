@@ -1,6 +1,6 @@
 {
-  "short_name": "IDEA",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Portfolio to introduce who I am",
   "icons": [
     {
       "src": "fav152.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#211c19",
   "background_color": "#ffffff"
 }
