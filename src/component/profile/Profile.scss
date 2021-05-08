@@ -5,6 +5,7 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 8em;
   padding-top: 2em;
   padding-bottom: 2em;
   .whoami {
@@ -21,11 +22,21 @@
     }
   }
 }
-
+p {
+  padding-left: 3em;
+  padding-bottom: 0;
+}
+.arrow {
+  color: gray;
+}
+i {
+  padding-right: 0.5em;
+}
 // timeline
 
 ul.timeline {
-  margin-top: 0.4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   list-style: none;
   li {
     margin-bottom: 10px;
@@ -56,9 +67,28 @@ ul.timeline {
       font-size: x-large;
       color: $i-gray;
     }
-    p {
-      padding-left: 3em;
-      padding-bottom: 0;
-    }
+  }
+}
+dl {
+  dt {
+    padding-left: 2em;
+    color: $i-gray;
+  }
+  h3 {
+    padding-left: 2em;
+    padding-top: 1em;
+    color: $base-gray;
+  }
+  dd {
+    padding-top: 0.3em;
+    padding-left: 3em;
+  }
+  img {
+    width: 70%;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin: auto;
+    display: block;
   }
 }

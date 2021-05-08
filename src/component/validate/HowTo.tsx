@@ -10,7 +10,8 @@ function Howto() {
       </h2>
       <div className="page-p">
         <p>
-          Execute the following command and the hash will be matched to the
+          Replace the "Firstname Lastname" with the actual expected name and
+          execute the following command. The hash code will be matched to the
           title <span className="hilight">{title}</span>.
         </p>
         <p>

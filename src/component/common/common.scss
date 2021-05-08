@@ -26,7 +26,8 @@
 
   h2 {
     color: $i-white;
-    font-size: 1.6em;
+    font-size: 1.5em;
+    font-weight: normal;
     word-spacing: 0.1em;
     padding: 0.2em 0.5em;
     margin: 0.4em 0;
@@ -56,14 +57,32 @@
     margin: 0 10px;
     background-color: $p-bg;
   }
+  dt {
+    font-size: 1.3em;
+  }
+  dd {
+    font-size: 1em;
+  }
   @include tab {
     p {
       font-size: 1.1em;
+    }
+    dd {
+      font-size: 1.1em;
+    }
+    dt {
+      font-size: 1.3em;
     }
   }
   @include sp {
     p {
       font-size: 1.3em;
+    }
+    dd {
+      font-size: 1.3em;
+    }
+    dt {
+      font-size: 1.5em;
     }
   }
   .fa-page {

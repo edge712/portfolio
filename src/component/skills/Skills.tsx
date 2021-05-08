@@ -3,7 +3,7 @@ import "component/skills/Skills.scss";
 
 function Skills() {
   return (
-    <div className="skills" id="Skils">
+    <div className="skills" id="Skills">
       <h1>
         <i className="fas fa-globe fa-page fa-fw"></i>Skils
       </h1>

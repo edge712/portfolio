@@ -8,7 +8,10 @@ function TimeEvent(props: TimeEventProps) {
       <div className="tl-content">
         <div className="tl-topic">{props["topic"]}</div>
         {props["content"].map((val) => (
-          <p>* {val}</p>
+          <p>
+            <i className="arrow fas fa-caret-right"></i>
+            {val}
+          </p>
         ))}
       </div>
     </li>
