@@ -25,7 +25,15 @@ function Row(props: SKillRowProps) {
       {props["skills"].map((val) => (
         <tr>
           <td>{val["name"]}</td>
-          <td>{val["level"]}</td>
+          {(() => {
+            if (val["level"] === "Expert") {
+              return <td className="expert"> {val["level"]}</td>;
+            } else if (val["level"] === "Working") {
+              return <td className="working"> {val["level"]}</td>;
+            } else {
+              return <td className="others"> {val["level"]}</td>;
+            }
+          })()}
         </tr>
       ))}
     </>

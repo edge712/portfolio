@@ -34,9 +34,8 @@ export const skills: SKillRowProps[] = [
   {
     index: "Backend",
     skills: [
-      { name: "Python", level: "Speciallist" },
+      { name: "Python", level: "Expert" },
       { name: "bash", level: "Working" },
-      { name: "Linux", level: "Working" },
       { name: "RDB", level: "Working" },
       { name: "OpenAPI", level: "Working" },
       { name: "Node.js", level: "Awareness" },
@@ -46,11 +45,16 @@ export const skills: SKillRowProps[] = [
   {
     index: "Infrastructure",
     skills: [
-      { name: "Networking", level: "Speciallist" },
+      { name: "Networking", level: "Expert" },
+      { name: "StorageSystem", level: "Expert" },
       { name: "AWS", level: "Working" },
       { name: "GitHub", level: "Working" },
       { name: "Docker", level: "Working" },
       { name: "AWS", level: "Working" },
+      { name: "Linux", level: "Working" },
+      { name: "Windows", level: "Working" },
+      { name: "Mac", level: "-" },
+      { name: "Slack", level: "Working" },
     ],
   },
   {
@@ -63,7 +67,26 @@ export const skills: SKillRowProps[] = [
     ],
   },
   {
-    index: "aaaaaaaaa",
-    skills: [{ name: "aaaaaaaaa", level: "aaaaaaaaa" }],
+    index: "Test/QA",
+    skills: [
+      { name: "Test automation", level: "Expert" },
+      { name: "Selenium", level: "Working" },
+      { name: "Security", level: "Working" },
+      { name: "Quality Analysis", level: "Working" },
+      { name: "Bug Analysis", level: "Working" },
+    ],
+  },
+  {
+    index: "Others",
+    skills: [
+      { name: "Ops/CI/CD", level: "Working" },
+      { name: "Archtecture Design", level: "Working" },
+      { name: "Machine Learning", level: "Working" },
+      { name: "Algorythm", level: "Working" },
+      { name: "Japanese", level: "Expert" },
+      { name: "English", level: "Working" },
+      { name: "Communication", level: "Expert" },
+      { name: "Markdown", level: "Working" },
+    ],
   },
 ];
