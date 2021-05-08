@@ -1,4 +1,5 @@
 import { TimeEventProps } from "component/profile/TimeEvent";
+import { SKillRowProps } from "component/skills/SkillTable";
 //exported variables
 export const title = "9779277e";
 
@@ -27,4 +28,12 @@ export const aboutme: string[] = [
   "Software engineer, Network engineer from Yokohama",
   "Music composer, Audio engineer",
   "3DCG",
+];
+
+export const skills: SKillRowProps[] = [
+  {
+    index: "a",
+    name: "a",
+    level: "a",
+  },
 ];
