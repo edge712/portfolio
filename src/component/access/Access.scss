@@ -1,7 +1,34 @@
-.access {
+@import "../common/media.scss";
+@import "../color/colorName.scss";
+@import "../color/color.scss";
+
+.message {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 10em;
+  .message-content {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    padding-bottom: 2em;
+    background-color: $home-bg;
+    p {
+      padding-top: 1em;
+      padding-left: 2em;
+    }
+    p:first-letter {
+      color: #5bc0de;
+      font-size: 300%;
+    }
+
+    @include tab {
+      width: 84%;
+    }
+    @include sp {
+      width: 100%;
+    }
+  }
 }

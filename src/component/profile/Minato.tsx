@@ -1,6 +1,6 @@
 import React from "react";
 import "component/profile/Profile.scss";
-import { history } from "../../const/vars";
+import { history, title } from "../../const/vars";
 import cg from "component/img/bg.jpg";
 import TimeEvent from "component/profile/TimeEvent";
 
@@ -21,7 +21,7 @@ function Minato() {
       </h2>
       <div className="aboutme">
         <dl>
-          <dt>edge712</dt>
+          <dt>{title}</dt>
           <h3>Root</h3>
           <dd>~ 1998 : Michigan, United States</dd>
           <dd>1999 ~ : Yokohama Japan</dd>

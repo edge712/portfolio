@@ -7,7 +7,7 @@
   margin-right: auto;
   margin-left: auto;
   padding-top: 2em;
-  padding-bottom: 2em;
+  margin-bottom: 10em;
   .skillTable {
     width: 70%;
     margin-right: auto;
@@ -53,4 +53,9 @@ table {
 }
 .others {
   color: $lighter-gray;
+}
+
+.supplement {
+  padding-left: 2em;
+  padding-bottom: 2em;
 }

@@ -20,14 +20,14 @@ function Nav() {
 
           <li>
             <HashLink to="/#Skills">
-              <i className="fas fa-globe fa-nav fa-fw"></i>
+              <i className="fas fa-wrench"></i>
               Skills
             </HashLink>
           </li>
           <li>
-            <HashLink to="/#Access">
-              <i className="fas fa-anchor fa-nav fa-fw"></i>
-              Access
+            <HashLink to="/#Message">
+              <i className="fas fa-comment"></i>
+              Message
             </HashLink>
           </li>
         </ul>

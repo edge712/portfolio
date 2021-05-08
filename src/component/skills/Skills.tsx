@@ -4,9 +4,9 @@ import "component/skills/SkillTable";
 import SkillTable from "component/skills/SkillTable";
 function Skills() {
   return (
-    <div className="skills" id="Skills">
+    <div className="skills clearfix" id="Skills">
       <h1>
-        <i className="fas fa-globe fa-page fa-fw"></i>Skils
+        <i className="fas fa-wrench"></i>Skills
       </h1>
       <hr></hr>
       <SkillTable></SkillTable>

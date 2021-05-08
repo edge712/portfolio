@@ -1,6 +1,7 @@
 import React from "react";
 import "component/skills/Skills.scss";
-import { skills } from "../../const/vars";
+
+import { skills, supplement } from "../../const/vars";
 
 function SkillTable(props) {
   return (
@@ -12,6 +13,12 @@ function SkillTable(props) {
           ))}
         </tbody>
       </table>
+      <h2>
+        <i className="far fa-compass icon"></i>Supplement
+      </h2>
+      {supplement.map((val) => (
+        <p>* {val}</p>
+      ))}
     </div>
   );
 }
