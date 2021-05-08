@@ -32,8 +32,38 @@ export const aboutme: string[] = [
 
 export const skills: SKillRowProps[] = [
   {
-    index: "a",
-    name: "a",
-    level: "a",
+    index: "Backend",
+    skills: [
+      { name: "Python", level: "Speciallist" },
+      { name: "bash", level: "Working" },
+      { name: "Linux", level: "Working" },
+      { name: "RDB", level: "Working" },
+      { name: "OpenAPI", level: "Working" },
+      { name: "Node.js", level: "Awareness" },
+      { name: "golang", level: "Awareness" },
+    ],
+  },
+  {
+    index: "Infrastructure",
+    skills: [
+      { name: "Networking", level: "Speciallist" },
+      { name: "AWS", level: "Working" },
+      { name: "GitHub", level: "Working" },
+      { name: "Docker", level: "Working" },
+      { name: "AWS", level: "Working" },
+    ],
+  },
+  {
+    index: "Frontend",
+    skills: [
+      { name: "React", level: "Awareness" },
+      { name: "TypeScript", level: "Awareness" },
+      { name: "HTML5/CSS3", level: "Awareness" },
+      { name: "GraphQL", level: "Awareness" },
+    ],
+  },
+  {
+    index: "aaaaaaaaa",
+    skills: [{ name: "aaaaaaaaa", level: "aaaaaaaaa" }],
   },
 ];

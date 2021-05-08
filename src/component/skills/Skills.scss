@@ -1,5 +1,6 @@
 @import "../common/media.scss";
 @import "../color/colorName.scss";
+@import "../color/color.scss";
 
 .skills {
   width: 100%;
@@ -20,4 +21,21 @@
       width: 100%;
     }
   }
+}
+.colSpan {
+  background-color: rgba($darker-gray, 0.2);
+  color: $base-gray;
+}
+
+tr {
+  box-shadow: 0px 5px 15px -15px rgba(245, 245, 245, 0.8);
+  height: 2em;
+}
+td {
+  text-align: center;
+}
+table {
+  width: 70%;
+  margin: 2em auto;
+  border-collapse: collapse;
 }

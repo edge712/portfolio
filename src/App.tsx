@@ -5,11 +5,13 @@ import Validate from "./component/validate/Validate";
 import Access from "./component/access/Access";
 import Profile from "./component/profile/Profile";
 import Skills from "component/skills/Skills";
+import Pallet from "component/color/Palette";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <Pallet></Pallet>
       <BrowserRouter>
         {<Header />}
         <div className="Body">

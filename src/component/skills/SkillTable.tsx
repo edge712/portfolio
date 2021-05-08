@@ -19,21 +19,26 @@ function SkillTable(props) {
 function Row(props: SKillRowProps) {
   return (
     <>
-      <tr>
+      <tr className="colSpan">
         <td colSpan={2}>{props["index"]}</td>
       </tr>
-      <tr>
-        <td>{props["name"]}</td>
-        <td>{props["level"]}</td>
-      </tr>
+      {props["skills"].map((val) => (
+        <tr>
+          <td>{val["name"]}</td>
+          <td>{val["level"]}</td>
+        </tr>
+      ))}
     </>
   );
 }
 
 export interface SKillRowProps {
   index: string;
+  skills: SkillProps[];
+}
+
+export interface SkillProps {
   name: string;
   level: string;
 }
-
 export default SkillTable;
