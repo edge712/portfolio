@@ -24,6 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://edge712.github.io/portfolio/",
   "eslintConfig": {
     "extends": "react-app"
   },
